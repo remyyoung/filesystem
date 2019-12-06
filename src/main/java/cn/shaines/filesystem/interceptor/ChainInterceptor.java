@@ -22,7 +22,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
 public class ChainInterceptor implements HandlerInterceptor {
 
 
-    @Value("${hostname}")
+    @Value("${hostname:http://localhost:8080}")
     private String hostname;
 
     private MvcUtil mvcUtil = MvcUtil.get();

@@ -44,7 +44,7 @@ import org.springframework.web.multipart.MultipartFile;
 @RequestMapping("/file")
 public class FileController {
 
-    @Value("${hostname}")
+    @Value("${hostname:http://localhost:8080}")
     private String hostname;
 
     @Autowired
