@@ -89,8 +89,9 @@ var TableInit = function () {
     }
 
     function handle(value, row, index) {//赋予的参数
-        var handleString = '<div style="min-width: 70px"><a href="'+ row.mapping +'" target="_blank" style="margin-right: 10px;"><span class="glyphicon glyphicon-eye-open"></span></a>' +
+        var handleString = '<div style="min-width: 95px"><a href="'+ row.mapping +'" target="_blank" style="margin-right: 10px;"><span class="glyphicon glyphicon-eye-open"></span></a>' +
             '<a href="'+ row.mapping.replace('view', 'download') +'" target="_blank"  style="margin-right: 10px"><span class="glyphicon glyphicon-cloud-download"></span></a>' +
+            '<a href="'+ row.mapping +'" target="_blank" style="margin-right: 10px;"> <span class="glyphicon glyphicon-edit"></span> </a>'+
             '<a href="javascript:void(0);" onclick="deleteByName(\''+ row.name +'\')"><span class="glyphicon glyphicon-trash"></span></a></div>'
         return handleString
     }
