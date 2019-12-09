@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "pageoffice.reg",
+      "type": "cn.shaines.filesystem.config.PageOfficeRegister",
+      "sourceType": "cn.shaines.filesystem.config.PageOfficeRegister"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
