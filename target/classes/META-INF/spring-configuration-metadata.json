@@ -2,10 +2,66 @@
   "groups": [
     {
       "name": "pageoffice.reg",
-      "type": "cn.shaines.filesystem.config.PageOfficeRegister",
-      "sourceType": "cn.shaines.filesystem.config.PageOfficeRegister"
+      "type": "cn.shaines.filesystem.entity.PageOfficeEntry",
+      "sourceType": "cn.shaines.filesystem.entity.PageOfficeEntry"
     }
   ],
-  "properties": [],
+  "properties": [
+    {
+      "name": "pageoffice.reg.admin-password",
+      "type": "java.lang.String",
+      "sourceType": "cn.shaines.filesystem.entity.PageOfficeEntry"
+    },
+    {
+      "name": "pageoffice.reg.admin-seal",
+      "type": "java.lang.String",
+      "sourceType": "cn.shaines.filesystem.entity.PageOfficeEntry"
+    },
+    {
+      "name": "pageoffice.reg.jquery-url",
+      "type": "java.lang.String",
+      "sourceType": "cn.shaines.filesystem.entity.PageOfficeEntry"
+    },
+    {
+      "name": "pageoffice.reg.login-seal",
+      "type": "java.lang.String",
+      "sourceType": "cn.shaines.filesystem.entity.PageOfficeEntry"
+    },
+    {
+      "name": "pageoffice.reg.pageoffice-js",
+      "type": "java.lang.String",
+      "sourceType": "cn.shaines.filesystem.entity.PageOfficeEntry"
+    },
+    {
+      "name": "pageoffice.reg.po-server-url",
+      "type": "java.lang.String",
+      "sourceType": "cn.shaines.filesystem.entity.PageOfficeEntry"
+    },
+    {
+      "name": "pageoffice.reg.po-setup",
+      "type": "java.lang.String",
+      "sourceType": "cn.shaines.filesystem.entity.PageOfficeEntry"
+    },
+    {
+      "name": "pageoffice.reg.pobstyle-css-url",
+      "type": "java.lang.String",
+      "sourceType": "cn.shaines.filesystem.entity.PageOfficeEntry"
+    },
+    {
+      "name": "pageoffice.reg.seal-image",
+      "type": "java.lang.String",
+      "sourceType": "cn.shaines.filesystem.entity.PageOfficeEntry"
+    },
+    {
+      "name": "pageoffice.reg.seal-setup",
+      "type": "java.lang.String",
+      "sourceType": "cn.shaines.filesystem.entity.PageOfficeEntry"
+    },
+    {
+      "name": "pageoffice.reg.sys-path",
+      "type": "java.lang.String",
+      "sourceType": "cn.shaines.filesystem.entity.PageOfficeEntry"
+    }
+  ],
   "hints": []
 }
