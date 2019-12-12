@@ -65,7 +65,7 @@
         <!--<dependency>
             <groupId>com.zhuozhengsoft</groupId>
             <artifactId>pageoffice</artifactId>
-            <version>4.6.0.1</version>
+                                                                                 <version>4.6.0.1</version>
         </dependency>-->
         <!-- 添加Sqlite依赖（可选：如果不需要使用印章功能的话，不需要添加此依赖）-->
         <dependency>
@@ -105,23 +105,7 @@
                 </configuration>
             </plugin>
 
-            <!--生成daocker镜像-->
-            <plugin>
-                <groupId>com.spotify</groupId>
-                <artifactId>dockerfile-maven-plugin</artifactId>
-                <version>1.4.10</version>
-                <configuration>
-                    <!-- dockerhub或者private registry账号   -->
-                    <username>remyyoung4docker</username>
-                    <!-- dockerhub或者private registry密码 -->
-                    <password>yst110130.</password>
-                    <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 
-                    <buildArgs>
-                        <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
-                    </buildArgs>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
 
