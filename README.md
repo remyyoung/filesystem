@@ -1,7 +1,5 @@
 > 前几天搞了一个文件管理系统，因为几乎做每一个项目都涉及到上传文件这一步骤，不可能每一个项目都做一个模块处理文件，所以我最近整了一个小文件系统来用，这样子别的项目上传文件的话，直接可以上传到该项目即可。。。
-> 详情请浏览博客 https://blog.csdn.net/JinglongSource/article/details/88544115
 
-> 目前支持多端文件上传, 默认使用本地磁盘存储
 
 
 整体效果，如下：
@@ -51,9 +49,6 @@ but 对于爬虫来说无任何阻碍【捂脸】
 - 权限控制（spring security）
 - 分布式文件存储（hadoop HDFS）：正在学习中...
 
-#### (4)哪里下载
-
-* [github](https://github.com/HouYuSource/filesystem.git)
 
 导入注意事项:
 
@@ -87,8 +82,3 @@ but 对于爬虫来说无任何阻碍【捂脸】
     private static final Configuration cfg = new Configuration(Zone.zone0());
     private static final String domainOfBucket = "your domainOfBucket";
     ```
-
-
-##### 交流
-博客同步到[SHY BLOG](https://www.shaines.cn)
-mail ：for.houyu@qq.com
